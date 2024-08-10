@@ -1,0 +1,231 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+#customCarousel .carousel-item {
+  position: relative;
+  height: 65vh;
+  background: #333;
+  color: #fff;
+}
+
+#customCarousel .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#customCarousel .carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+#this-one{
+  background-image: url('img/Sugeng-Rawuh.png');
+  height: 550px; /* Increase height to make the section taller */
+  background-attachment: fixed;
+  background-size: 100% !important; /* Keep the image smaller */
+  background-position:top center; /* Moves the image to the left */
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+}
+
+.parallax {
+  background-image: url('img/Sugeng-Rawuh.png');
+  height: 550px; /* Increase height to make the section taller */
+  background-attachment: fixed;
+  background-size: 120%; /* Keep the image smaller */
+  background-position:top center; /* Moves the image to the left */
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+}
+
+
+.overlay-image {
+  position: absolute;
+  bottom: 100px; /* Adjust this value to move the image higher or lower */
+  right: 20px;
+  z-index: 2; /* Ensures the image is on top of the parallax */
+  width: 700px; /* Increased width for a larger image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.carousel-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s;
+}
+
+.card a {
+  display: block;
+}
+.card a img {
+  width: 100%;
+  height: auto;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.menu-card .card {
+  border-radius: 10%;
+  width: 24rem;
+  height: 20rem;
+  overflow: hidden;
+}
+
+/*MENU*/
+
+.carousel-item .col-md-4 {
+  display: flex;
+  justify-content: center;
+}
+
+/* .menu-container {
+  background-color: #333;
+} */
+
+/* FAQ */
+
+.faq-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+.accordion-button {
+  background-color: #e4e4e4;
+  width: 28rem;
+  height: 100px;
+  border: #fff !important;
+  color: #3b2914 !important;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+.faq-button:hover {
+  color: #f15a25 !important;
+}
+.faq-button:focus .faq-icon,
+.faq-button.collapsed .faq-icon {
+  background-color: #000;
+}
+
+/* Testimonial */
+
+.testimonial-section {
+  padding: 60px 0;
+}
+.testimonial-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.testimonial {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background-color:#e4e4e4 ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  text-align: center;
+}
+.testimonial img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.testimonial h5 {
+  margin-bottom: 10px;
+}
+.testimonial p {
+  font-style: italic;
+  color: #555;
+}
+
+#testimonials {
+  background-color: #3b2914;
+}
+
+#testimonials .container h2 {
+  color: #fff;
+}
+
+/* Contact */
+
+.contact-section {
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+.contact-section .form-control {
+  border-radius: 0;
+  border: 1px solid #ced4da;
+}
+.contact-section .btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 0;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+#map {
+  height: 400px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #F15A25;
+  color: white;
+  text-align: center;
+  padding: 20px 0; 
+}
+
+.custom-footer {
+  background-color: #3b2914;
+  color: #ffffff;
+  padding: 1.5rem 0;
+}

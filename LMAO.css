@@ -4,6 +4,8 @@ html {
 
 body {
   font-family: "Arial", sans-serif;
+  Overflow-x:hidden;
+
 }
 
 #customCarousel .carousel-item {

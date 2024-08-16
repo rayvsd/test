@@ -5,8 +5,22 @@ html {
 body {
   font-family: "Arial", sans-serif;
   Overflow-x:hidden;
+  scroll-behavior: smooth;
 
 }
+
+.custom-navbar {
+  margin-left: 30rem;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important; /* White color for brand and links */
+  font-weight: 600; /* Make the text bold */
+}
+.nav-link.active {
+  color: #ffc107 !important; /* Highlighted color for active link */
+}
+
 
 #customCarousel .carousel-item {
   position: relative;
